@@ -32,7 +32,7 @@ def collect_assignments():
         # Get how much the assignment counts (weight)
         while True:
             try:
-                weight = float(input("Enter weight (as a percentage): "))
+                weight = float(input("Enter weight (as a percentage of the total grade): "))
                 # Weight must be between 0-100%
                 if 0 <= weight <= 100:
                     break
